@@ -147,7 +147,7 @@ class Timetable:
             now_table = 'wed_shedule'
         elif now.isoweekday() == 4:
             now_table = 'thur_shedule'
-        elif now.isoweekday() == 5:
+        elif now.isoweekday() == 6:
             now_table = 'fri_shedule'
         return now_table
         # Получение сегодняшнего дня ориентируясь н реальное время
